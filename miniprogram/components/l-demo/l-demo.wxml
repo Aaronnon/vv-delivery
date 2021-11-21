@@ -1,0 +1,10 @@
+<view class="product-container">
+  <l-card image-mode="aspectFit" full type="cover" image="{{data.p_imgURL}}" title="{{data.p_name}}" l-class="life-container" l-img-class="life-img" l-title-class="life-title">
+    <view class='life-product-contianer'>
+      <view class='art-content'>{{data.p_size}}</view>
+      <view class='price-container'>CA
+        <l-price unit="$" value="{{data.p_price}}" value-color="#F4288D" unit-color="#F4288D" value-size="36"></l-price>
+      </view>
+    </view>
+  </l-card>
+</view>

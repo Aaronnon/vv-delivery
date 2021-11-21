@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "l-grid-item": "../../miniprogram_npm/lin-ui/grid-item",
+    "l-grid":"../../miniprogram_npm/lin-ui/grid",
+    "l-water-flow":"../../miniprogram_npm/lin-ui/water-flow",
+    "l-demo":"../../components/l-demo/l-demo",
+    "l-search-bar":"../../miniprogram_npm/lin-ui/search-bar",
+    "l-notice-bar":"../../miniprogram_npm/lin-ui/notice-bar"
+  }
+}

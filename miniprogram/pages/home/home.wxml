@@ -1,0 +1,32 @@
+<view class="container">
+     <l-search-bar placeholder="搜索" bg-color="#f6f6f6" shape="circle" show-cancel="{{false}}" class="search-container" />
+     <swiper class="swiper-wrapper" indicator-dots="{{true}}" autoplay="{{true}}" circular="{{true}}" indicator-active-color="#f7f2f2">
+          <block wx:for="{{swiperList}}" wx:key="{{id}}">
+               <swiper-item>
+                    <image src="{{item.imgURL}}" class="slide-image" />
+               </swiper-item>
+          </block>
+     </swiper>
+
+     <l-notice-bar front-icon-name="notification" l-class="bar-class" show="{{true}}" type="roll">
+          我是通告栏我是通告栏我是通告栏我是通告栏
+     </l-notice-bar>
+
+     <view class="banner-wrapper">
+          <l-grid l-class="grid" row-num="5">
+               <l-grid-item wx:for="{{bannerlist}}" wx:key="{{item._id}}" key="{{item._id}}" slot="{{item._id}}">
+                    <image class="banner-img" src="{{item.imgURL}}"></image>
+                    <view class="text">{{item.name}}</view>
+               </l-grid-item>
+          </l-grid>
+     </view>
+     <view class="product-container">
+          <view class="content-container">
+               <image src="https://6164-adad-8gh48azv3b404c25-1301511894.tcb.qcloud.la/banner/like_fill.png?sign=9fa3b438fc69b1b58f064aee01582f33&t=1637450438" class="like-img"></image><span class="recomend-content">推荐商品</span>
+          </view>
+
+          <l-water-flow generic:l-water-flow-item="l-demo" column-gap="20rpx" />
+     </view>
+
+
+</view>

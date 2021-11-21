@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/menu/menu",
+    "pages/cart/cart",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "薇薇快送",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/images/icons/tab-bar/home.png",
+        "selectedIconPath": "/images/icons/tab-bar/home_fill.png"
+      },
+      {
+        "pagePath": "pages/menu/menu",
+        "text": "分类",
+        "iconPath": "/images/icons/tab-bar/menu.png",
+        "selectedIconPath": "/images/icons/tab-bar/menu_selected.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "/images/icons/tab-bar/cart.png",
+        "selectedIconPath": "/images/icons/tab-bar/cart_selected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/images/icons/tab-bar/my.png",
+        "selectedIconPath": "/images/icons/tab-bar/my_selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents"
+}
